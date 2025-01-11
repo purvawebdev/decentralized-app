@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Landing Page Styles */
+.landing-page header {
+  text-align: center;
+  padding: 50px;
+  background-color: #3498db;
+  color: white;
+}
+
+.landing-page .cta {
+  margin-top: 20px;
+}
+
+.landing-page .cta .btn-primary,
+.landing-page .cta .btn-secondary {
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.landing-page .cta .btn-primary {
+  background-color: #1abc9c;
+}
+
+.landing-page .cta .btn-secondary {
+  background-color: #f39c12;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-card {
+  width: 30%;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+/* Profile Page Styles */
+.profile-page header {
+  text-align: center;
+  padding: 40px;
+  background-color: #2ecc71;
+  color: white;
+}
+
+.profile-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-actions button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+/* Dashboard Page Styles */
+.dashboard-page header {
+  text-align: center;
+  padding: 40px;
+  background-color: #9b59b6;
+  color: white;
+}
+
+.dashboard-stats {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.stat-card h3 {
+  margin-top: 0;
+}

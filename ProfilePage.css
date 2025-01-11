@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.profile-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Section */
+.profile-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Profile Details Section */
+.profile-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    text-align: left;
+}
+
+.profile-card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.profile-info {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+/* Profile Actions Section */
+.profile-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-page {
+        padding: 10px;
+    }
+
+    .profile-header h1 {
+        font-size: 2em;
+    }
+
+    .profile-header p {
+        font-size: 1em;
+    }
+
+    .profile-card h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-info {
+        font-size: 1em;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
